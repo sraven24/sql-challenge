@@ -39,6 +39,7 @@ FROM employees
 INNER JOIN dept_emp ON employees.emp_no = dept_emp.emp_no
 INNER JOIN departments ON dept_emp.dept_no = departments.dept_no;
 
+
 --List first name, last name, and sex of each employee whose first name is Hercules 
 --and whose last name begins with the letter B.
 SELECT 
